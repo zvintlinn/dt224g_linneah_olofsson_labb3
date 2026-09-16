@@ -4,6 +4,7 @@
 
 body{
     background-color: #F6ECE3;
+    margin: 0;
 }
 /* HEADER OCH LOGGA */
 #logotyp{
@@ -15,7 +16,7 @@ body{
 header>div{
     display: flex;
     align-items: center;
-    padding: 0px;
+    padding: 5px;
 }
 header>div>p{
     
@@ -25,4 +26,15 @@ header>div>p{
     color: #9E5700;
     font-size: 20px;
     margin: 0;
+}
+/* NAVIGERING */
+#nav{
+   background-color: #432C14;
+   margin: 0;
+   list-style: none;
+}
+nav a{
+      text-decoration: none;
+      color: #F6ECE3;
+      font-family: big shoulders;
 }
