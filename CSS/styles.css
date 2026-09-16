@@ -29,12 +29,21 @@ header>div>p{
 }
 /* NAVIGERING */
 #nav{
-   background-color: #432C14;
-   margin: 0;
+
    list-style: none;
+   margin: 0;
+   padding: 0;
+}
+nav li{
+    padding: 0.5em;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    background-color: #432C14;
+    padding-left: 58px;
 }
 nav a{
       text-decoration: none;
       color: #F6ECE3;
       font-family: big shoulders;
-}
+      font-weight:200;
+    }
