@@ -1,0 +1,28 @@
+*{
+   box-sizing: border-box; 
+}
+
+body{
+    background-color: #F6ECE3;
+}
+/* HEADER OCH LOGGA */
+#logotyp{
+    margin-left: 22px;
+    margin-right: 22px;
+    width: 37px;
+    height: 37px;
+}
+header>div{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+header>div>p{
+    
+    font-family: Big shoulders;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #9E5700;
+    font-size: 20px;
+    margin: 0;
+}
