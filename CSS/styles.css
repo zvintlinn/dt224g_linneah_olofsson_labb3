@@ -134,4 +134,13 @@ nav a{
    }
    .puff h3{
     color: var(--green-color);
+    margin-top: 0;
+   }
+   .puff p{
+    text-align: left;
+    text-wrap-style: balance;
+   }
+   .puff div{
+    padding: 20px;
+    padding-bottom: 10px;
    }
