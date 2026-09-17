@@ -76,7 +76,7 @@ nav a{
    .hero{
     max-width: 100%;
    } 
-   /* INTRODUKTION */
+   /* INFOBOXAR M KNAPP */
    .info h1{
     color: var(--mute-yellow);
     font-family: big shoulders;
@@ -103,4 +103,14 @@ nav a{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
+   }
+   /* TEXTBOX */
+   .textbox h2{
+    color: var(--mute-yellow);
+   }
+   .textbox p{
+    margin-left: 20px;
+    margin-right: 20px;
+    letter-spacing: -2%;
+    margin-bottom: 10px;
    }
