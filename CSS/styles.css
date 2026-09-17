@@ -47,3 +47,7 @@ nav a{
       font-family: big shoulders;
       font-weight:200;
     }
+    /* HERO */
+   .hero{
+    max-width: 100%;
+   } 
