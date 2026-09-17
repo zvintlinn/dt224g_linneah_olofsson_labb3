@@ -114,3 +114,14 @@ nav a{
     letter-spacing: -2%;
     margin-bottom: 10px;
    }
+   /* UPPLEVELSER */
+   #upplevelser{
+    background-color: var(--primary-two);
+    color: var(--bright-yellow);
+   }
+   #upplevelser h2{
+    padding: 10px;
+   }
+   .puff img{
+    max-width: 100%;
+   }
