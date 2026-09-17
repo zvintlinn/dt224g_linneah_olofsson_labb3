@@ -66,5 +66,19 @@ nav a{
    }
    .info h1{
     color: var(--mute-yellow);
+    font-family: big shoulders;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+   }
+   .info p{
+    color: var(--dark-text);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+   }
+   .info button{
     
+    font-family: big shoulders;
    }
