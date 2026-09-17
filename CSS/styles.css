@@ -1,9 +1,18 @@
+:root{
+    --primary-one: #F6ECE3;
+    --primary-two: #432C14;
+    --green-color: #5A5D17;
+    --dark-text: #432C14;
+    --light-text: #F6ECE3;
+    --bright-yellow: #F8971F;
+    --mute-yellow: #9E5700;
+}
 *{
    box-sizing: border-box; 
 }
 
 body{
-    background-color: #F6ECE3;
+    background-color: var(--primary-one);
     margin: 0;
 }
 /* HEADER OCH LOGGA */
@@ -23,7 +32,7 @@ header>div>p{
     font-family: Big shoulders;
     text-transform: uppercase;
     font-weight: bold;
-    color: #9E5700;
+    color: var(--mute-yellow);
     font-size: 20px;
     margin: 0;
 }
@@ -38,12 +47,12 @@ nav li{
     padding: 0.5em;
     margin-top: 1px;
     margin-bottom: 1px;
-    background-color: #432C14;
+    background-color: var(--primary-two);
     padding-left: 58px;
 }
 nav a{
       text-decoration: none;
-      color: #F6ECE3;
+      color: var(--light-text);
       font-family: big shoulders;
       font-weight:200;
     }
@@ -51,3 +60,11 @@ nav a{
    .hero{
     max-width: 100%;
    } 
+   /* INTRODUKTION */
+   .info{
+    
+   }
+   .info h1{
+    color: var(--mute-yellow);
+    
+   }
