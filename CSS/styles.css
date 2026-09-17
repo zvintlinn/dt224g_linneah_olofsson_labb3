@@ -121,7 +121,7 @@ nav a{
    .textbox p{
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
    }
    /* UPPLEVELSER */
    #upplevelser{
@@ -155,9 +155,11 @@ nav a{
    footer{
     background-color: var(--primary-two);
     color: var(--light-text);
+    padding: 20px;
    }
    footer img{
     width: 85px;
+    margin-bottom: 15px;
    }
    footer p{
     color: var(--light-text);
@@ -168,8 +170,20 @@ nav a{
    .footer_logga h3{
     color: var(--bright-yellow);
     font-size: 24px;
+    text-transform: uppercase;
     margin: 0;
    }
    .footer_länkar{
     display: flex;
+    justify-content: center;
+    gap: 70px;
+   }
+   .footer_länkar h3{
+    color: var(--bright-yellow);
+    font-size: 24px;
+   }
+   .footer_länkar a{
+    display: block;
+    color: var(--light-text);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    }
