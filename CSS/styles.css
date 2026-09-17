@@ -151,3 +151,25 @@ nav a{
     padding: 20px;
     padding-bottom: 10px;
    }
+   /* FOOTER */
+   footer{
+    background-color: var(--primary-two);
+    color: var(--light-text);
+   }
+   footer img{
+    width: 85px;
+   }
+   footer p{
+    color: var(--light-text);
+   }
+   .footer_logga{
+    text-align: center;
+   }
+   .footer_logga h3{
+    color: var(--bright-yellow);
+    font-size: 24px;
+    margin: 0;
+   }
+   .footer_länkar{
+    display: flex;
+   }
