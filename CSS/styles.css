@@ -14,6 +14,18 @@
 p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: var(--dark-text);
+    text-align: center;
+}
+h2{
+    font-family: big shoulders;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+}
+hr{
+   background-color: var(--primary-two);
+   height: 1px;
+   border: none;
 }
 body{
     background-color: var(--primary-one);
@@ -65,9 +77,6 @@ nav a{
     max-width: 100%;
    } 
    /* INTRODUKTION */
-   .info{
-    
-   }
    .info h1{
     color: var(--mute-yellow);
     font-family: big shoulders;
@@ -93,4 +102,5 @@ nav a{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
    }
