@@ -22,6 +22,9 @@ h2{
     text-align: center;
     font-weight: 600;
 }
+h3{
+    font-family: big shoulders;
+}
 hr{
    background-color: var(--primary-two);
    height: 1px;
@@ -122,6 +125,13 @@ nav a{
    #upplevelser h2{
     padding: 10px;
    }
+   .puff{
+    margin: 30px;
+    background-color: var(--primary-one);
+   }
    .puff img{
     max-width: 100%;
+   }
+   .puff h3{
+    color: var(--green-color);
    }
