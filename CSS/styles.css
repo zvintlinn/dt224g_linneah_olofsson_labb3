@@ -176,7 +176,6 @@ nav a{
    .footer_länkar{
     display: flex;
     justify-content: center;
-    gap: 70px;
    }
    .footer_länkar h3{
     color: var(--bright-yellow);
@@ -186,4 +185,7 @@ nav a{
     display: block;
     color: var(--light-text);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+   .footer_länkar div{
+    margin: 35px;
    }
