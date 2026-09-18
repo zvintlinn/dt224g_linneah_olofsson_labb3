@@ -110,15 +110,21 @@ nav a{
        }
     }
     /* HERO OCH INFO */
-   .hero{
+    .hero{
+        @media (min-width: 800px){
+         position: relative;
+        width: 100%;
+        }
+    }
+   .hero img{
     max-width: 100%;
    } 
    .hero-info{
     @media (min-width: 800px){
        position: absolute;
-       z-index: 2;
-    top: 260px;
-    width: 335px;
+       top: 24%;
+    left: 6%;
+    width: 370px;
     }
    }
    .hero-info h1{
@@ -131,6 +137,7 @@ nav a{
         color: var(--bright-yellow);
         font-size: 40px;
         text-align: left;
+        margin: 0;
     }
    }
    .hero-info p{
@@ -139,7 +146,11 @@ nav a{
     margin-right: 20px;
         @media (min-width: 800px){
             color: var(--light-text);
+            font-size: 20px;
             text-align: left;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            margin-left: 0;
         }
    }
    .hero-info button{
@@ -156,6 +167,11 @@ nav a{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
+     @media (min-width: 800px){
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0px;
+     }
    }
    /* TEXTBOX */
    .textbox h2{
