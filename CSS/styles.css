@@ -40,6 +40,10 @@ body{
     margin-right: 22px;
     width: 37px;
     height: 37px;
+       @media (min-width: 800px){
+    height: 59px;
+    width: 59px;
+   }
 }
 header{
     @media (min-width: 800px){
@@ -68,6 +72,9 @@ header>div>p{
    list-style: none;
    margin: 0;
    padding: 0;
+   @media (min-width: 800px){
+    height: 78px;
+   }
 }
 nav li{
     padding: 0.5em;
@@ -76,9 +83,9 @@ nav li{
     background-color: var(--primary-two);
     padding-left: 58px;
     @media (min-width: 800px){
-        display: inline;
+        display: inline-block;
         background-color: transparent;
-        color: var(--green-color);
+        padding: 30px;
     }
 }
 nav a{
@@ -86,6 +93,10 @@ nav a{
       color: var(--light-text);
       font-family: big shoulders;
       font-weight:200;
+        @media (min-width: 800px){
+        font-weight: 400;
+        color: var(--green-color);
+       }
     }
     /* HERO */
    .hero{
