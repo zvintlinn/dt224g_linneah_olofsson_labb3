@@ -313,7 +313,7 @@ nav a{
     padding: 20px;
      @media (min-width: 800px){
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 0.5fr 1fr 1fr 1fr;
      }
    }
    footer img{
@@ -355,7 +355,8 @@ nav a{
     display: flex;
     justify-content: center;
         @media (min-width: 800px){
-            
+            grid-column: 3/5;
+            justify-content: space-around;
      }
    }
    .footer_länkar h3{
