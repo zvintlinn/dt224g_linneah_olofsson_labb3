@@ -311,18 +311,41 @@ nav a{
     background-color: var(--primary-two);
     color: var(--light-text);
     padding: 20px;
+     @media (min-width: 800px){
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+     }
    }
    footer img{
     width: 85px;
     margin-bottom: 15px;
+     @media (min-width: 800px){
+        padding-right: 1vw;
+         }
    }
    footer p{
     color: var(--light-text);
+         @media (min-width: 800px){
+        text-align: left;
+     }
    }
-   .footer_logga{
+   .footer-logga{
+    display: flex;
+    justify-content: center;
+    @media (min-width: 800px){
+     display: block;
+     justify-self: end;
+     align-self: center;
+        }
+   }
+   .footer_text{
     text-align: center;
+         @media (min-width: 800px){
+        text-align: left;
+        align-self: center;
+     }
    }
-   .footer_logga h3{
+   .footer_text h3{
     color: var(--bright-yellow);
     font-size: 24px;
     text-transform: uppercase;
@@ -331,6 +354,9 @@ nav a{
    .footer_länkar{
     display: flex;
     justify-content: center;
+        @media (min-width: 800px){
+            
+     }
    }
    .footer_länkar h3{
     color: var(--bright-yellow);
