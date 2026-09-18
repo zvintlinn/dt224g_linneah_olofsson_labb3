@@ -40,7 +40,7 @@ body{
     margin-right: 22px;
     width: 37px;
     height: 37px;
-       @media (min-width: 800px){
+    @media (min-width: 800px){
     height: 59px;
     width: 59px;
    }
@@ -56,6 +56,9 @@ header>div{
     display: flex;
     align-items: center;
     padding: 5px;
+    @media (min-width: 800px){
+        padding: 0;
+    }
 }
 header>div>p{
     
@@ -65,6 +68,9 @@ header>div>p{
     color: var(--mute-yellow);
     font-size: 20px;
     margin: 0;
+    @media (min-width: 800px){
+        font-size: 32px;
+    }
 }
 /* NAVIGERING */
 #nav-list{
@@ -96,6 +102,7 @@ nav a{
         @media (min-width: 800px){
         font-weight: 400;
         color: var(--green-color);
+        font-size: 28px;
        }
     }
     /* HERO */
