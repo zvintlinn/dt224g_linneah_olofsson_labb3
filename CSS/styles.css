@@ -41,6 +41,11 @@ body{
     width: 37px;
     height: 37px;
 }
+header{
+    @media (min-width: 800px){
+        display: flex;
+    }
+}
 header>div{
     display: flex;
     align-items: center;
@@ -68,6 +73,9 @@ nav li{
     margin-bottom: 1px;
     background-color: var(--primary-two);
     padding-left: 58px;
+    @media (min-width: 800px){
+        display: inline;
+    }
 }
 nav a{
       text-decoration: none;
