@@ -75,6 +75,8 @@ nav li{
     padding-left: 58px;
     @media (min-width: 800px){
         display: inline;
+        background-color: transparent;
+        color: var(--green-color);
     }
 }
 nav a{
