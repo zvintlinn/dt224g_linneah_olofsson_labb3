@@ -193,6 +193,7 @@ nav a{
     @media (min-width: 800px){
         max-width: 750px;
         justify-self: center;
+        font-size: 1vw;
     }
    }
    /* UPPLEVELSER */
@@ -221,7 +222,7 @@ nav a{
     justify-self: center;
     margin-left: 3vw;
     margin-right: 3vw;
-    height: 25vw;
+    height: 24vw;
     width: 19vw;
     }
     }
@@ -240,7 +241,7 @@ nav a{
     text-align: left;
     text-wrap-style: balance;
     @media (min-width: 800px){
-        font-size: 1.1vw;
+        font-size: 1vw;
         padding-bottom: 30px;
         margin: 0;
     }
@@ -264,6 +265,11 @@ nav a{
     text-align: center;
     margin-left: 20px;
     margin-right: 20px;
+     @media (min-width: 800px){
+        max-width: 750px;
+        justify-self: center;
+        font-size: 1vw;
+     }
    }
    .info button{
     color: var(--light-text);
