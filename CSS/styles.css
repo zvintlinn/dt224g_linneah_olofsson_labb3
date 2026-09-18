@@ -201,10 +201,10 @@ nav a{
     color: var(--bright-yellow);
     padding: 30px;
              @media (min-width: 800px){
-        display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.1fr 1fr;
-    padding: 3vw;
+          display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+         grid-template-rows: 0.1fr 1fr;
+         padding: 1.5vw;
     }
    }
    #upplevelser h2{
@@ -218,6 +218,7 @@ nav a{
     margin-top: 30px;
     @media (min-width: 800px){
     grid-row: 2/3;
+    justify-self: center;
     margin-left: 3vw;
     margin-right: 3vw;
     height: 25vw;
@@ -230,14 +231,26 @@ nav a{
    .puff h3{
     color: var(--green-color);
     margin-top: 0;
+    @media (min-width: 800px){
+        font-size: 1.4vw;
+        margin-bottom: 0.5vw;
+    }
    }
    .puff p{
     text-align: left;
     text-wrap-style: balance;
+    @media (min-width: 800px){
+        font-size: 1.1vw;
+        padding-bottom: 30px;
+        margin: 0;
+    }
    }
    .puff div{
     padding: 20px;
     padding-bottom: 10px;
+    @media (min-width: 800px){
+        padding: 1.15vw;
+    }
    }
    /* INFO */
    .info h2{
