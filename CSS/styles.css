@@ -190,6 +190,10 @@ nav a{
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
+    @media (min-width: 800px){
+        max-width: 750px;
+        justify-self: center;
+    }
    }
    /* UPPLEVELSER */
    #upplevelser{
