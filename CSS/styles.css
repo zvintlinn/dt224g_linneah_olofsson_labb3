@@ -50,6 +50,7 @@ header{
         display: flex;
         justify-content: space-around;
         align-items: center;
+        height: 78px;
     }
 }
 header>div{
@@ -79,7 +80,6 @@ header>div>p{
    margin: 0;
    padding: 0;
    @media (min-width: 800px){
-    height: 78px;
    }
 }
 nav li{
@@ -89,7 +89,6 @@ nav li{
     background-color: var(--primary-two);
     padding-left: 58px;
     @media (min-width: 800px){
-        display: inline-block;
         background-color: transparent;
         padding: 30px;
     }
@@ -103,6 +102,11 @@ nav a{
         font-weight: 400;
         color: var(--green-color);
         font-size: 28px;
+        display: inline-block;
+        :hover{
+            background-color: var(--primary-two);
+            color: var(--light-text);
+        }
        }
     }
     /* HERO */
