@@ -80,12 +80,20 @@ header>div>p{
     }
 }
 /* NAVIGERING */
+nav{
+    @media (min-width: 800px) {
+       height: 78px;
+        display: flex;
+        align-items: center;
+    }
+}
 #nav-list{
 
    list-style: none;
    margin: 0;
    padding: 0;
    @media (min-width: 800px){
+           display: flex;
    }
 }
 nav li{
@@ -96,8 +104,10 @@ nav li{
     padding-left: 58px;
     @media (min-width: 800px){
         background-color: transparent;
-        display: inline-block;
         text-align: center;
+        padding: 0;
+        margin: 0;
+        gap: 0;
     }
 }
 nav a{
@@ -109,9 +119,8 @@ nav a{
         font-weight: 400;
         color: var(--green-color);
         font-size: 22px;
+        padding: 25.82px;
         transition: background-color 0.4s, color 0.4s;
-        padding: 100% 5px;
-        display: block;
         &:hover{
             background-color: var(--primary-two);
             color: var(--light-text);
