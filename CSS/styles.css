@@ -17,13 +17,13 @@ p{
     text-align: center;
 }
 h2{
-    font-family: big shoulders;
+    font-family: big shoulders, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 28px;
     text-align: center;
     font-weight: 600;
 }
 h3{
-    font-family: big shoulders;
+    font-family: big shoulders, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 hr{
    background-color: var(--primary-two);
@@ -58,7 +58,10 @@ header{
         height: 78px;
     }
 }
-header>div{
+header a{
+    text-decoration: none;
+}
+header div{
     display: flex;
     align-items: center;
     padding: 5px;
@@ -67,9 +70,9 @@ header>div{
         animation: fadein 2s;
     }
 }
-header>div>p{
+header div>p{
     
-    font-family: Big shoulders;
+    font-family: big shoulders, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
     color: var(--mute-yellow);
@@ -113,7 +116,7 @@ nav li{
 nav a{
       text-decoration: none;
       color: var(--light-text);
-      font-family: big shoulders;
+      font-family: big shoulders, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
       font-weight:200;
         @media (min-width: 800px){
         font-weight: 400;
@@ -149,7 +152,7 @@ nav a{
    }
    .hero-info h1{
     color: var(--mute-yellow);
-    font-family: big shoulders;
+    font-family: big shoulders, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 28px;
     text-align: center;
     font-weight: 600;
@@ -179,7 +182,7 @@ nav a{
    .hero-info button{
     color: var(--light-text);
     background-color: var(--green-color);
-    font-family: big shoulders;
+    font-family: big shoulders, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
     font-weight: 200;
     border-radius: 10px;
@@ -292,7 +295,7 @@ nav a{
    }
    .info h2{
       color: var(--mute-yellow);
-    font-family: big shoulders;
+    font-family: big shoulders, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 28px;
     text-align: center;
     font-weight: 600;
@@ -313,7 +316,7 @@ nav a{
    .info button{
     color: var(--light-text);
     background-color: var(--green-color);
-    font-family: big shoulders;
+    font-family: big shoulders, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
     font-weight: 200;
     border-radius: 10px;
