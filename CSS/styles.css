@@ -96,7 +96,8 @@ nav li{
     padding-left: 58px;
     @media (min-width: 800px){
         background-color: transparent;
-        padding: 30px;
+        display: inline-block;
+        text-align: center;
     }
 }
 nav a{
@@ -108,8 +109,9 @@ nav a{
         font-weight: 400;
         color: var(--green-color);
         font-size: 22px;
-        display: inline-block;
         transition: background-color 0.4s, color 0.4s;
+        padding: 100% 5px;
+        display: block;
         &:hover{
             background-color: var(--primary-two);
             color: var(--light-text);
