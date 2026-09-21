@@ -187,6 +187,10 @@ nav a{
     height: 2.5vw;
     font-size: 1.3vw;
     animation: fadein 2.2s;
+    &:hover{
+        background-color: var(--primary-one);
+        color: var(--green-color);
+    }
      }
    }
    /* TEXTBOX */
@@ -315,6 +319,10 @@ nav a{
         width: 16vw;
         height: 2.5vw;
         font-size: 1.3vw;
+            &:hover{
+        background-color: var(--primary-two);
+        color: var(--light-text);
+    }
     }
    }
    /* FOOTER */
