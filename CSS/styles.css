@@ -47,6 +47,7 @@ body{
     @media (min-width: 800px){
     height: 59px;
     width: 59px;
+    animation: fadein 2s;
    }
 }
 header{
@@ -63,6 +64,7 @@ header>div{
     padding: 5px;
     @media (min-width: 800px){
         padding: 0;
+        animation: fadein 2s;
     }
 }
 header>div>p{
@@ -107,7 +109,8 @@ nav a{
         color: var(--green-color);
         font-size: 22px;
         display: inline-block;
-        :hover{
+        transition: background-color 0.4s, color 0.4s;
+        &:hover{
             background-color: var(--primary-two);
             color: var(--light-text);
         }
@@ -228,6 +231,10 @@ nav a{
     margin-right: 3vw;
     height: 24vw;
     width: 19vw;
+    transition: transform 1s;
+    &:hover{
+        transform: scale(1.1);
+    }
     }
     }
    .puff img{
