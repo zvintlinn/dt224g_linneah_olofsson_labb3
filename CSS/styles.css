@@ -202,8 +202,7 @@ nav a{
     font-size: 1.3vw;
     animation: fadein 2.2s;
     &:hover{
-        background-color: var(--primary-one);
-        color: var(--green-color);
+        background-color: var(--primary-two);
     }
      }
    }
