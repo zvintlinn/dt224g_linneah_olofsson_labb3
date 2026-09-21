@@ -122,6 +122,7 @@ nav a{
     }
    .hero img{
     max-width: 100%;
+    animation: fadein 2s;
    } 
    .hero-info{
     @media (min-width: 800px){
@@ -143,6 +144,7 @@ nav a{
         font-size: 2.5vw;
         text-align: left;
         margin: 0;
+        animation: fadein 2.2s;
     }
    }
    .hero-info p{
@@ -157,6 +159,7 @@ nav a{
             margin-top: 15px;
             margin-bottom: 15px;
             margin-left: 0;
+            animation: fadein 2.2s;
         }
    }
    .hero-info button{
@@ -180,6 +183,7 @@ nav a{
     width: 16vw;
     height: 2.5vw;
     font-size: 1.3vw;
+    animation: fadein 2.2s;
      }
    }
    /* TEXTBOX */
@@ -371,4 +375,9 @@ nav a{
    }
    .footer_länkar div{
     margin: 35px;
+   }
+   /* KEYFRAMES */
+   @keyframes fadein{
+    from{opacity: 0;}
+    to{opacity: 1;}
    }
